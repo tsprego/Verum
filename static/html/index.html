@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSP-ReGo Verum | B2B Webshop Scanner</title>
+    <!-- Updated path to point to static/style/ -->
+    <link rel="stylesheet" href="/static/style/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TSP-ReGo Verum</h1>
+            <p>Automated Scam-Shop Verification Framework</p>
+        </header>
 
+        <main>
+            <div class="input-section">
+                <input type="url" id="targetUrl" placeholder="https://example-shop.com" required>
+                <button id="scanBtn" onclick="runScan()">Initialize Scan</button>
+            </div>
+
+            <div id="loading" class="hidden">
+                <p>Executing infrastructure and DOM analysis...</p>
+            </div>
+
+            <div id="results" class="results-grid hidden">
+                <div class="card">
+                    <h3>Infrastructure (Whois)</h3>
+                    <pre id="infraData"></pre>
+                </div>
+                <div class="card">
+                    <h3>DOM & Payment Analysis</h3>
+                    <pre id="domData"></pre>
+                </div>
+                <div class="card llm-card">
+                    <h3>Verum Trust Score</h3>
+                    <pre id="llmData">Pending LLM Integration...</pre>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- Updated path to point to static/script/ -->
+    <script src="/static/script/script.js"></script>
+</body>
+</html>
