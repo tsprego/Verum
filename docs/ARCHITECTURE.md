@@ -1,4 +1,4 @@
-'''tsp-rego-verum/
+´´´tsp-rego-verum/
 │
 ├── docs/
 │   ├── REQUIREMENTS.md       # Requirement Specifications & Traceability Matrix
@@ -11,4 +11,4 @@
 │
 ├── app.py                    # Hardened Flask backend (SSRF & Input defenses)
 ├── requirements.txt          # Version-pinned dependencies
-└── README.md                 # 350-char project summary'''
+└── README.md                 # 350-char project summary´´´
