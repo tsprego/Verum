@@ -1,4 +1,4 @@
-#TSP-ReGo Verum
+# TSP-ReGo Verum
 Automated B2B Webshop Verification & Scam Detection Framework
 
 Overview
