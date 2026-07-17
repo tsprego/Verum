@@ -1,0 +1,17 @@
+# The strict JSON boundary the AI must adhere to
+{
+  "is_transactional_webshop": true,
+  "tax_compliance": {
+    "tax_id_found": true,
+    "tax_id_value": "DK12345678",
+    "probable_country": "Denmark"
+  },
+  "payment_analysis": {
+    "standard_methods": ["Visa", "MobilePay"],
+    "suspect_methods": []
+  },
+  "risk_assessment": {
+    "scam_probability_score": 15,
+    "primary_risk_factor": "None. Standard corporate registry identified."
+  }
+}
